@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="10dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cardborder">
+
+        <TextView
+            android:id="@+id/txtDiaDeEntradaCambio"
+            android:layout_width="142dp"
+            android:layout_height="21dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:text="@string/dia_entrada"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPersonaPidiendoCambio" />
+
+        <TextView
+            android:id="@+id/txtSalidaNuevaHora"
+            android:layout_width="0dp"
+            android:layout_height="21dp"
+            android:text="@string/Nueva_hora_de_salida"
+            app:layout_constraintBottom_toBottomOf="@+id/imgAcceptUpdateBTN"
+            app:layout_constraintEnd_toStartOf="@+id/imgAcceptUpdateBTN"
+            app:layout_constraintStart_toEndOf="@+id/txtDiaDeEntradaCambio"
+            app:layout_constraintTop_toBottomOf="@+id/txtEntradaNuevaHora" />
+
+        <TextView
+            android:id="@+id/txtPersonaPidiendoCambio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="@string/persona_que_pide_el_cambio"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imgCancelUpdateBTN"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/cardborder"
+            android:contentDescription="@string/cancel_entry"
+            app:layout_constraintBottom_toBottomOf="@+id/imgAcceptUpdateBTN"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDiaDeEntradaCambio"
+            app:srcCompat="@android:drawable/ic_delete"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/imgAcceptUpdateBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardborder"
+            android:contentDescription="@string/confirm_entry"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtEntradaNuevaHora"
+            app:srcCompat="@android:drawable/checkbox_on_background"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/txtEntradaNuevaHora"
+            android:layout_width="0dp"
+            android:layout_height="21dp"
+            android:text="@string/new_time_entry"
+            app:layout_constraintBottom_toBottomOf="@+id/txtDiaDeEntradaCambio"
+            app:layout_constraintEnd_toStartOf="@+id/imgAcceptUpdateBTN"
+            app:layout_constraintStart_toEndOf="@+id/txtDiaDeEntradaCambio"
+            app:layout_constraintTop_toBottomOf="@+id/txtPersonaPidiendoCambio" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

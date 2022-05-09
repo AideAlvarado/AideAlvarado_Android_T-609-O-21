@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "313510935940",
+    "firebase_url": "https://proyectofindemastercice-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "proyectofindemastercice",
+    "storage_bucket": "proyectofindemastercice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313510935940:android:2fb3076e38022cccd1f1d1",
+        "android_client_info": {
+          "package_name": "com.aidealvarado.controldepresenciaAPFM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313510935940-e98q7tqi9s7r64dd5bm1ssicujgcjjg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnP25OmKuZiuKuZRDNUeG4FMbJxqUywjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313510935940-e98q7tqi9s7r64dd5bm1ssicujgcjjg0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "313510935940-r8ov246324r3unrgq1ks00pv2bvbe86i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aidealvarado.ControlDePresenciaPFM"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

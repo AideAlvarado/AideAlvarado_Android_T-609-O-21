@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/cardborder.xml" value="0.1715" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/ic_checklist.xml" value="0.20208333333333334" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1715" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1715" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/ic_logout.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/ic_pause.xml" value="0.2390625" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/ic_pencil.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/ic_punch_green.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/ic_punch_red.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/ic_settings.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/ic_user_avatar_svgrepo_com.xml" value="0.149" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/icono_email.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/icono_input.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/icono_manager.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/icono_persona.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/drawable/icono_personas.xml" value="0.1715" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout-land/fragment_update_time_record.xml" value="0.2927927927927928" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/activity_edit_user.xml" value="0.3333333333333333" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/activity_gallery.xml" value="0.15260416666666668" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/activity_main.xml" value="0.171875" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/activity_people.xml" value="0.16666666666666666" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/content_gallery.xml" value="0.33282051282051284" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/dialogo_opciones.xml" value="0.1875" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/fragment_aprove_update.xml" value="0.3333333333333333" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/fragment_clock_in.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/fragment_first.xml" value="0.22780797101449277" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/fragment_login.xml" value="0.4466666666666667" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/fragment_people.xml" value="0.21927083333333333" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/fragment_register.xml" value="0.4466666666666667" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/fragment_tasks.xml" value="0.5" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/fragment_update_time_record.xml" value="0.2646420824295011" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/people_item.xml" value="0.21927083333333333" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/time_layout_item.xml" value="0.3592592592592593" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/layout/update_timerecord.xml" value="0.1" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/menu/options_menu.xml" value="0.1625" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/mipmap-anydpi-v26/ic_banner.xml" value="0.1445" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3101851851851852" />
+        <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1715" />
+        <entry key="app/src/main/res/layout/activity_edit_user.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_people.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_clock_in.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_tasks.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/layout/people_item.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/options_menu.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16197916666666667" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

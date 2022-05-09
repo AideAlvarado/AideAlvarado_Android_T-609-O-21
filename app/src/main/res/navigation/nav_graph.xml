@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.aidealvarado.controldepresenciaAPFM.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/fromLoginToClockIn"
+            app:destination="@id/clockInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.aidealvarado.controldepresenciaAPFM.ui.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue='""' />
+        <action
+            android:id="@+id/fromRegisterToClockin"
+            app:destination="@id/clockInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clockInFragment"
+        android:name="com.aidealvarado.controldepresenciaAPFM.ui.ClockInFragment"
+        android:label="fragment_clock_in"
+        tools:layout="@layout/fragment_clock_in" >
+        <argument
+            android:name="user"
+            app:argType="string"
+            android:defaultValue='""' />
+        <action
+            android:id="@+id/toUpdateTimeRecord"
+            app:destination="@id/updateTimeRecordFragment" />
+        <action
+            android:id="@+id/toPeopleFragment"
+            app:destination="@id/peopleFragment" />
+        <action
+            android:id="@+id/returnToLogin"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/fromClockToTasks"
+            app:destination="@id/tasksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateTimeRecordFragment"
+        android:name="com.aidealvarado.controldepresenciaAPFM.ui.UpdateTimeRecordFragment"
+        android:label="fragment_update_time_record"
+        tools:layout="@layout/fragment_update_time_record" >
+        <argument
+            android:name="timeRecord"
+            app:argType="com.aidealvarado.controldepresenciaAPFM.models.TimeRecord" />
+    </fragment>
+    <fragment
+        android:id="@+id/peopleFragment"
+        android:name="com.aidealvarado.controldepresenciaAPFM.ui.PeopleFragment"
+        android:label="fragment_people"
+        tools:layout="@layout/fragment_people" >
+        <argument
+            android:name="tenant"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="TENANT" />
+    </fragment>
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.aidealvarado.controldepresenciaAPFM.TasksFragment"
+        android:label="fragment_tasks"
+        tools:layout="@layout/fragment_tasks" >
+        <argument
+            android:name="manager"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/toAuthorizeUpdate"
+            app:destination="@id/aproveUpdate" />
+    </fragment>
+    <fragment
+        android:id="@+id/aproveUpdate"
+        android:name="com.aidealvarado.controldepresenciaAPFM.aproveUpdate"
+        android:label="fragment_aprove_update"
+        tools:layout="@layout/fragment_aprove_update" >
+        <argument
+            android:name="updateRecord"
+            app:argType="com.aidealvarado.controldepresenciaAPFM.models.UpdateTimeRecord" />
+    </fragment>
+</navigation>

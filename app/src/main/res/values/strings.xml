@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Control de Presencia</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm password</string>
+
+
+    <string name="bienvenido">Bienvenido</string>
+    <string name="dia_laborable">Día laborable</string>
+    <string name="tiempo_trabajado">Tiempo trabajado</string>
+    <string name="checkin">Checkin</string>
+    <string name="checkout">ChecOut</string>
+
+    <string name="enter_email">Enter email</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="item">Item</string>
+    <string name="logout">logout</string>
+    <string name="pause">Revisar peticiones</string>
+    <string name="gestion_personas">Gestion personas</string>
+    <string name="settings">settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enviar_correccion">Enviar correccion</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nueva_salida">nueva salida</string>
+    <string name="hora_de_salida">hora de salida</string>
+    <string name="banner_image_view_description">Banner</string>
+    <string name="jornada">Jornada</string>
+    <string name="nueva_entrada">nueva entrada</string>
+    <string name="hora_de_entrada">Hora de entrada</string>
+    <string name="d_a_actual">Día actual</string>
+    <string name="name_cant_be_empty">Name can\'t be empty</string>
+    <string name="both_passwords_must_be_the_same">Both passwords must be the same</string>
+    <string name="name">Name</string>
+    <string name="introduzca_nombre">Introduzca nombre</string>
+    <string name="introduzca_su_email">Introduzca su email</string>
+    <string name="user_picture">User picture</string>
+    <string name="display_name">display name</string>
+    <string name="manager">Manager</string>
+    <string name="enabled">Enabled</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="nombre_de_usuario_edt">Nombre de usuario</string>
+    <string name="email_edt">email</string>
+    <string name="es_gerente_edt">¿Es gerente?</string>
+    <string name="habilitado_edt">Habilitado</string>
+    <string name="manager_edt">Manager</string>
+    <string name="guardar">Guardar</string>
+    <string name="new_time_entry">Nueva hora entrada</string>
+    <string name="persona_que_pide_el_cambio">Persona que pide el cambio</string>
+    <string name="Nueva_hora_de_salida">Nueva hora de salida</string>
+    <string name="dia_entrada">Dia_entrada</string>
+    <string name="confirm_entry">Confirm entry</string>
+    <string name="cancel_entry">Cancel entry</string>
+    <string name="nueva_entrada_item">Nueva entrada:</string>
+    <string name="nueva_salida_item">\"Nueva salida: \"</string>
+    <string name="ElijaOpcionTxt">Elija opción</string>
+    <string name="CD_eliminar">Eliminar</string>
+    <string name="CD_Actualizar">Actualizar</string>
+    <string name="aprobar_correccion">Aprobar</string>
+    <string name="denegar">Denegar</string>
+    <string name="intro_a_new_entry_time">Introduzca una nueva hora de entrada válida</string>
+    <string name="intro_a_new_exit_time">Introduzca una hora de salida válida</string>
+    <string name="hora_de_salida_menor_que_entrada">La hora de salida ha de ser posterior a la de entrada</string>
+    <string name="backAction">back</string>
+    <string name="cancel">Cancelar</string>
+    <string name="textview">TextView</string>
+    <string name="weather_icon">weather icon</string>
+    <string name="avatar_image">avatar image</string>
+
+    <!--
+    val STATUS_PENDING = 0
+    val STATUS_CONFIRMED = 1
+    val STATUS_REJECTED = 2
+    -->
+    <string-array name="task_status">
+        <item>Pendiente</item>
+        <item>Confirmado</item>
+        <item>Cancelado</item>
+    </string-array>
+</resources>

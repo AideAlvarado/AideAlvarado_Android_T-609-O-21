@@ -42,9 +42,10 @@
         <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/mipmap-anydpi-v26/ic_banner.xml" value="0.1445" />
         <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3101851851851852" />
         <entry key="..\:/Codigo/Android/ControldePresencia2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1715" />
-        <entry key="app/src/main/res/layout/activity_edit_user.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_edit_user.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_people.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.14336372847011145" />
         <entry key="app/src/main/res/layout/fragment_clock_in.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_tasks.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/layout/people_item.xml" value="0.33" />
